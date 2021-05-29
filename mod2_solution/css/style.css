@@ -14,12 +14,14 @@ h1 {
 p {
     background-color: lightpink;
     font-family: fantasy;
-    width: 20%;
+    /* width: 20%; */
     height: 30px;
     position:relative;
     text-align: center;
     vertical-align:middle;
-    left:80%;
+    display: flex;
+    justify-content: flex-end;
+    /* left:80%; */
     margin:0px;
 }
 
